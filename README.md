@@ -1,1 +1,3 @@
 # Projeto de Transações, Executando Backup e Recovery de Banco de Dados
+
+O script mostra como criar um novo schema de banco de dados no MySQL, criar uma tabela dentro desse schema e realizar transações para inserir dados nessa tabela. Depois, o exemplo faz um backup do schema usando o comando mysqldump e simula a perda de dados excluindo a tabela criada anteriormente. Por fim, o exemplo usa o comando mysql para recuperar o backup anterior e restaurar a tabela com seus dados no schema. É importante lembrar que o backup e recovery de dados devem ser feitos com cuidado e testados em ambiente de teste antes de serem usados em produção.
